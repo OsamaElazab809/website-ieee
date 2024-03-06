@@ -5,6 +5,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 :root {
@@ -400,3 +401,83 @@ ul {
 text-decoration: underline;
 }
 /* End landing  */
+/*start of footer*/
+.logo111{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 40px 0;
+}
+.email111{
+  text-align: center;
+  justify-content: center;
+}
+.email111 a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 12px;
+  text-align: center;
+}
+.email111 h3{
+  padding: 10px 0 0 0;
+}
+.find111{
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.find111 a{
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 12px;
+  text-align: center;
+}
+.links111{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  padding: 0 0 10px 0;
+}
+.links111 h3{
+  text-align: center;
+  color: aliceblue;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+.contactUs111{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 20px;
+}
+.contactUs111 img:hover{
+  scale: 1.2 1.2 ;
+}
+.copy111{
+  color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 25px 0 0 0;
+  font-size: 19px;
+  text-align: center;
+}
+hr{
+  width: 50%;
+  border: none;
+  background-color: #c4c3c31f;
+  height: 1px;
+}
+@media (max-width:600px) {
+  .links111{
+      display: column;
+  }
+  .email111{
+      width: 100%;
+  }
+  .find111{
+      width: 100%;
+  }
+}
+/*end of footer*/
