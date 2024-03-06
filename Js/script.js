@@ -1,4 +1,5 @@
 "use strict";
+// Start Heroes Tab
 let techBtn = document.querySelector(".btn.tech");
 let nontechBtn = document.querySelector(".btn.nontech");
 let techTab = document.querySelector(".tech-tab");
@@ -20,3 +21,4 @@ nontechBtn.addEventListener("click", function () {
   nontechTab.classList.remove("hide");
   techTab.classList.add("hide");
 });
+// Start End Tab
