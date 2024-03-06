@@ -11,9 +11,7 @@
   --main-color: #0f2167;
   --second-color: #3559e0;
   --third-color: #4cb9e7;
-  --transition-duration: 0.4s;
   --transition-duration: 0.5s;
-  --transition-duration: 0.6s;
 }
 
 html {
@@ -21,10 +19,7 @@ html {
 }
 
 body {
-  font-family: "Cantarell", sans-serif;
   font-family: "Cairo", sans-serif;
-  /* background-color: var(--main-color); */
-  /* background-color: black; */
   height: 1000px;
 }
 
@@ -121,6 +116,8 @@ ul {
 }
 .section-title p {
   font-size: 35px;
+  color: #aaa;
+  margin: 5px;
 }
 
 /* Section Separator line */
@@ -1011,7 +1008,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
 }
 .Committees h3 {
-  font-size: 32px;
+  font-size: 28px;
   color: var(--third-color);
   margin: 10px 0;
 }
