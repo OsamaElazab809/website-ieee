@@ -510,7 +510,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   width: 200px;
   position: absolute;
   left: 0;
-  top: calc(100% + 20px);
+  top: 80%;
   background: #fff;
   padding: 20px;
   border-radius: 7px;
@@ -625,7 +625,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   width: calc(100% - 9%);
   height: 550px;
   overflow: hidden;
-  border: 2px solid #fff;
+  border: 1px solid #aaaa;
   box-shadow: 0 0 10px rgb(0, 0, 0, 1);
   border-radius: 8px;
   margin-top: 30px;
