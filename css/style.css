@@ -469,7 +469,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   color: white;
   font-size: 22px;
 }
-.header .bars-icons span{
+.header .bars-icons span {
   width: 100%;
   height: 3px;
   background-color: white;
@@ -489,8 +489,8 @@ section.heroes .heroes-img .nontech-tab img:hover {
 .header .bars-icons span:last-child {
   margin-top: 17px;
 }
-@media(min-width:991px){
-  .header .bars-icons{
+@media (min-width: 991px) {
+  .header .bars-icons {
     display: none;
   }
 }
@@ -503,24 +503,24 @@ section.heroes .heroes-img .nontech-tab img:hover {
   display: flex;
   padding: 20px 0;
 }
-@media(min-width:991px){
-  .header .links{
+@media (min-width: 991px) {
+  .header .links {
     /* margin-left: 30px; */
     /* transform: translateX(100px); */
   }
 }
-@media(max-width:992px){
-  .header .logo{
+@media (max-width: 992px) {
+  .header .logo {
     margin: 20px 0;
-    }
-  .header .links{
+  }
+  .header .links {
     flex-direction: column;
     position: absolute;
     left: 0;
     top: 100%;
     width: 100%;
     background-color: rgb(0, 0, 0, 0.7);
-    padding:  0;
+    padding: 0;
     display: none;
   }
 }
@@ -538,8 +538,8 @@ section.heroes .heroes-img .nontech-tab img:hover {
   transition: var(--transition-duration);
   font-weight: bold;
 }
-@media(max-width:992px){
-  .header .links > li > a{
+@media (max-width: 992px) {
+  .header .links > li > a {
     display: block;
     padding: 15px !important;
   }
@@ -575,8 +575,8 @@ section.heroes .heroes-img .nontech-tab img:hover {
   border-radius: 7px;
   display: none;
 }
-@media(max-width:992px){
-  .header .links > li > ul.inner-links{
+@media (max-width: 992px) {
+  .header .links > li > ul.inner-links {
     width: 100%;
     padding: 5px 20px;
     position: relative;
@@ -598,7 +598,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
-@media(max-width:992px){
+@media (max-width: 992px) {
   .header .links > li > ul.inner-links::after {
     display: none;
   }
@@ -637,11 +637,11 @@ section.heroes .heroes-img .nontech-tab img:hover {
   margin-left: 10px;
   color: var(--third-color);
 }
-@media(max-width:992px){
-  .header .links > li > ul.inner-links li::before{
+@media (max-width: 992px) {
+  .header .links > li > ul.inner-links li::before {
     background-color: #fff;
   }
-  .header .links > li > ul.inner-links li a{
+  .header .links > li > ul.inner-links li a {
     color: #fff;
   }
 }
@@ -658,8 +658,8 @@ section.heroes .heroes-img .nontech-tab img:hover {
   transition: var(--transition-duration);
   font-weight: bold;
 }
-@media(max-width:991px){
-  .header a.btn{
+@media (max-width: 991px) {
+  .header a.btn {
     position: absolute;
     right: 70px;
     display: none;
@@ -756,12 +756,12 @@ section.heroes .heroes-img .nontech-tab img:hover {
   border-radius: 10px;
   transform: translatex(512px);
 }
-@media(max-width:992px){
-  .landing .content{
+@media (max-width: 992px) {
+  .landing .content {
     width: 100%;
     text-align: center;
   }
-  .landing .logReg-box{
+  .landing .logReg-box {
     display: none;
   }
 }
@@ -1249,13 +1249,14 @@ section.heroes .heroes-img .nontech-tab img:hover {
 .contact{
   width: 100%;
   height: 100vh;
-  background-color: rgb(0, 0, 0, 0.6);
   padding-top: 70px;
   padding-bottom: 70px;
+  background-color: var(--main-color);
   position: relative;
 }
 .contact form{
- width: 60%;
+ width: 90%;
+ max-width: 700px;
  position: absolute;
  left: 50%;
  transform: translateX(-50%);
@@ -1269,10 +1270,10 @@ section.heroes .heroes-img .nontech-tab img:hover {
   width: 100%;
   padding: 10px;
   outline: none;
-  border: 1px solid #fff;
+  border: 3px solid #fff;
   color: #fff;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 19px;
   border-radius: 6px;
 }
 .contact label{
@@ -1283,7 +1284,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   padding: 10px;
   color: #fff;
   cursor: text;
-  font-size: 18px;
+  font-size: 19px;
   transition: var(--transition-duration);
 }
 .contact label i{
@@ -1294,7 +1295,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   color: #fff;
   background-color: var(--main-color);
   outline: none;
-  border: 3px solid var(--main-color);
+  border: 3px solid #fff;
   border-radius: 6px;
   cursor: pointer;
   font-size: 20px;
@@ -1305,6 +1306,7 @@ section.heroes .heroes-img .nontech-tab img:hover {
   color: var(--main-color);
   background-color: #fff;
   border: 3px solid var(--main-color);
+  font-weight: bold;
 }
 .contact input:focus ~ label,
 .contact textarea:focus ~ label,
