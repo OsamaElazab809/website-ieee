@@ -1,6 +1,5 @@
 /* Start Events Page */
-section.latest-events .grid-events {
-}
+
 section.latest-events .container .grid-events .event .img-hold {
   height: 100%;
   width: 100%;
@@ -34,7 +33,7 @@ section.latest-events .container .grid-events .event .img-desc {
   height: 0;
   opacity: 0;
   background: linear-gradient(to right, #0f2167, rgba(255, 255, 255, 0.315));
-  padding: 80px 45px;
+  padding: 30px 45px;
   transition: 0.5s;
   margin: auto 0;
   background-color: rgba(255, 0, 0, 0.5);
@@ -74,7 +73,38 @@ section.latest-events .container .grid-events .event .img-desc p {
   font-size: 13px;
   line-height: 2;
   color: white;
-  width: 50%;
+  width: 100%;
   margin: 20px 0;
+}
+
+@media (max-width: 690px) {
+  section.latest-events .container .grid-events .event .img-desc {
+    padding: 9px;
+  }
+  section.latest-events .container .grid-events .event .img-desc p {
+    font-size: 10px;
+    width: 100%;
+  }
+  section.latest-events .container .grid-events .event .img-desc span {
+    font-size: 12px;
+  }
+  section.latest-events .container .grid-events .event .img-desc h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 990px) {
+  section.latest-events .container .grid-events .event .img-desc {
+    padding: 20px;
+  }
+  section.latest-events .container .grid-events .event .img-desc p {
+    font-size: 11px;
+    width: 100%;
+  }
+  section.latest-events .container .grid-events .event .img-desc span {
+    font-size: 15px;
+  }
+  section.latest-events .container .grid-events .event .img-desc h2 {
+    font-size: 22px;
+  }
 }
 /* End Events Page */
