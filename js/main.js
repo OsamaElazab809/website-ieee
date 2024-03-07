@@ -1,7 +1,7 @@
 // start header
 const header = document.querySelector(".header");
 window.onscroll = function () {
-    if (scrollY > 50) {
+    if (scrollY > 10) {
         header.style.cssText = "background-color: var(--second-color);";
     } else {
         header.style.cssText = "background-color: transparent;";
