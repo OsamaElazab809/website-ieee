@@ -175,6 +175,10 @@ section.awited-event .flex-container .event-img img {
   width: 100%;
   border-radius: 10px;
   box-shadow: 5px 5px 15px var(--third-color);
+  transition: var(--transition-duration);
+}
+section.awited-event .flex-container .event-img img:hover {
+  transform: rotate(-1deg) scale(1.05);
 }
 section.awited-event .flex-container .awited-event-description {
   width: 500px;
