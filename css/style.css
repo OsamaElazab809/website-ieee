@@ -1559,15 +1559,13 @@ hr {
     url(../images/bg/background.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-attachment: fixed;
 }
 
 .wwd {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding: 50px 0;
   background: rgba(255, 255, 255, 0.6);
 }
 .text_wwd {
@@ -1630,8 +1628,7 @@ hr {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding: 50px 0;
   background: rgba(255, 255, 255, 0.6);
 }
 .text_oa {
@@ -1682,7 +1679,7 @@ hr {
 .text_img h4 {
   position: absolute;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 50px;
   font-size: 50px;
   color: var(--second-color);
@@ -1765,8 +1762,7 @@ hr {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding: 50px 0;
     background: rgba(255, 255, 255, 0.6);
   }
   .text_oa {
@@ -1790,7 +1786,7 @@ hr {
   }
   .text_img h4 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 50px;
     font-size: 30px;
   }
